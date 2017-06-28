@@ -1,0 +1,12 @@
+POST http://localhost:1234/api/orders
+Content-Type: application/json
+
+{
+  "products": [{
+    "product": "5953349ca4307c92d648531b",
+    "quantity": 2
+  },{
+    "product": "595334a7a4307c92d648531c",
+    "quantity": 2
+  }]
+}

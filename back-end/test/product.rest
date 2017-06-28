@@ -1,0 +1,33 @@
+POST http://localhost:1234/api/products
+Content-Type: application/json
+
+{
+  "name": "Waffle",
+  "price": 12,
+  "category": "food",
+  "stockRemaining": 10
+}
+
+###
+
+GET http://localhost:1234/api/products
+
+###
+
+PUT http://localhost:1234/api/products/5953319fbf99ea91aa224f5e
+Content-Type: application/json
+
+{
+  "name": "Fancy Coffee",
+  "price": 10,
+  "category": "drink",
+  "stockRemaining": 100
+}
+
+###
+
+DELETE http://localhost:1234/api/products/59533179f38e9191629d6e5b
+
+###
+
+GET  http://localhost:1234/api/products/59533498ca307c928648531b
