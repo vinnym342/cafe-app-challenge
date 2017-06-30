@@ -7,7 +7,7 @@ const cors = require('cors')
 
 const server = express()
 
-server.use(bodyParser.json())
+server.use(bodyParser())
 server.use(cors())
 
 server.use(productRouter)
@@ -18,3 +18,5 @@ port = 1234
 server.listen(port, () => {
   console.log(`Started on port ${port}`);
 })
+
+console.log('i made a cblahj;lawjf;oiwaehfhange!')
