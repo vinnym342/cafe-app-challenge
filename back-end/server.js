@@ -8,7 +8,7 @@ const cors = require('cors')
 const server = express()
 
 server.use(bodyParser())
-server.use(cors())
+server.use(cors()).kahsbkhvbdkzfgkhsdbfkjbgkh
 
 server.use(productRouter)
 server.use(orderRouter)
